@@ -6,11 +6,13 @@
 <title>SATO7 - Comunicação Estratégica</title>
 
   <%= stylesheet_link_tag "style" %>
+  <%= stylesheet_link_tag "video-js" %>
   <%= javascript_include_tag "jquery" %>
   <%= javascript_include_tag "parallax" %>
   <%= javascript_include_tag "modernizr" %>
   <%= javascript_include_tag "html5" %>
   <%= javascript_include_tag "hover" %>
+  <%= javascript_include_tag "video.js" %>
   <%= csrf_meta_tag %>
 </head>
 <body>
@@ -187,7 +189,23 @@
                 </ul>
              </div>
              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum suscipit ante molestie luctus. Vestibulum mi tellus, posuere a hendrerit quis, dignissim nec purus. Quisque vel elit eu nunc convallis mollis eget posuere velit. Suspendisse lobortis, sapien eget tempus viverra, augue augue convallis justo, nec porttitor enim ipsum at nisi.</p>
-             <img src="images/bt-video.png">
+			 <div class="video-js-box">
+			    <video id="example_video_1" class="video-js" width="640" height="264" controls preload="auto" poster="http://video-js.zencoder.com/oceans-clip.png">
+			      <source src="vocenaosabe.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+			      <source src="vocenaosabe.webm" type='video/webm; codecs="vp8, vorbis"' />
+			      <source src="vocenaosabe.ogv" type='video/ogg; codecs="theora, vorbis"' />
+			      <!-- Flash Fallback. Use any flash video player here. Make sure to keep the vjs-flash-fallback class. -->
+			      <object id="flash_fallback_1" class="vjs-flash-fallback" width="640" height="264" type="application/x-shockwave-flash"
+			        data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
+			        <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
+			        <param name="allowfullscreen" value="true" />
+			        <param name="flashvars" value='config={"playlist":["http://video-js.zencoder.com/oceans-clip.png", {"url": "http://www.castelatto.com.br/web/videos/vocenaosabe.mp4","autoPlay":false,"autoBuffering":true}]}' />
+			        <!-- Image Fallback. Typically the same as the poster image. -->
+			        <img src="http://video-js.zencoder.com/oceans-clip.png" width="640" height="264" alt="Poster Image"
+			          title="No video playback capabilities." />
+			      </object>
+			    </video>
+			  </div>
             </div>
         </div>
         <div id='box10'>
