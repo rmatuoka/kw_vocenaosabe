@@ -6,14 +6,30 @@
 <title>SATO7 - Comunicação Estratégica</title>
 
   <%= stylesheet_link_tag "style" %>
+  <%= stylesheet_link_tag "fancybox/jquery.fancybox" %>
   <%= stylesheet_link_tag "video-js" %>
   <%= javascript_include_tag "jquery" %>
   <%= javascript_include_tag "parallax" %>
   <%= javascript_include_tag "modernizr" %>
   <%= javascript_include_tag "html5" %>
   <%= javascript_include_tag "hover" %>
-  <%= javascript_include_tag "video.js" %>
+  <%= javascript_include_tag "fancybox/jquery.fancybox.js" %>
+  <%= javascript_include_tag "fancybox/jquery.mousewheel-3.0.6.pack.js" %>
+  <%= javascript_include_tag "fancybox/jquery.easing-1.3.pack.js" %>
   <%= csrf_meta_tag %>
+
+<script>
+$(document).ready(function() {
+	$("a.various").fancybox({
+		'width'				: '50%',
+		'height'			: '60%',
+		'autoScale'			: false,
+		'transitionIn'		: 'none',
+		'transitionOut'		: 'none',
+		'type'				: 'iframe'
+	});
+});
+</script>
 </head>
 <body>
 	<section>
@@ -109,9 +125,9 @@
         </div>
         <div id='box6'>
         	<div class="tit_box">
-            	<img src='images/num_5.png' border="0">
-                <h1>Qual é o principal fator<br>de sucesso na internet?</h1><br>
-                <h2>(Mídias sociais, sites e outros canais).</h2>
+            	<img src='images/num_5.png' border="0" style='float:left;'>
+                <h1 style='float:left; margin-left:0px; margin-top:0px;'>Qual é o principal fator<br>de sucesso na internet?</h1><br>
+                <h2 style='float:left; *margin-left:-635px !important; *margin-top:60px !important; margin-left/*\**/:-635px !important; margin-top/*\**/:60px !important; margin-left:0px !important; margin-top:0px !important;'>(Mídias sociais, sites e outros canais).</h2>
             </div>
             <div class="body_box">
             	<div class="item_1">
@@ -131,9 +147,9 @@
         </div>
         <div id='box7'>
         	<div class="tit_box">
-            	<img src='images/num_6.png' border="0">
-                <h1>O que pode ser<br>considerado como<br>um bom design?</h1><br>
-                <h2 style="margin-top:-30px;">(produto, site, impressos e outras peças).</h2>
+            	<img src='images/num_6.png' border="0" style='float:left;'>
+                <h1 style='float:left; margin-left:0px; margin-top:0px;'>O que pode ser<br>considerado como<br>um bom design?</h1><br>
+                <h2 style='float:left; *margin-left:-495px !important; *margin-top:100px !important; margin-left/*\**/:-495px !important; margin-top/*\**/:100px !important; margin-left:200px !important; margin-top:-10px !important; '>(produto, site, impressos e outras peças).</h2>
             </div>
             <div class="body_box">
             	<div class="item_1">
@@ -189,33 +205,17 @@
                 </ul>
              </div>
              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum suscipit ante molestie luctus. Vestibulum mi tellus, posuere a hendrerit quis, dignissim nec purus. Quisque vel elit eu nunc convallis mollis eget posuere velit. Suspendisse lobortis, sapien eget tempus viverra, augue augue convallis justo, nec porttitor enim ipsum at nisi.</p>
-			 <div class="video-js-box">
-			    <video id="example_video_1" class="video-js" width="640" height="264" controls preload="auto" poster="http://video-js.zencoder.com/oceans-clip.png">
-			      <source src="vocenaosabe.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-			      <source src="vocenaosabe.webm" type='video/webm; codecs="vp8, vorbis"' />
-			      <source src="vocenaosabe.ogv" type='video/ogg; codecs="theora, vorbis"' />
-			      <!-- Flash Fallback. Use any flash video player here. Make sure to keep the vjs-flash-fallback class. -->
-			      <object id="flash_fallback_1" class="vjs-flash-fallback" width="640" height="264" type="application/x-shockwave-flash"
-			        data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
-			        <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
-			        <param name="allowfullscreen" value="true" />
-			        <param name="flashvars" value='config={"playlist":["http://video-js.zencoder.com/oceans-clip.png", {"url": "http://www.castelatto.com.br/web/videos/vocenaosabe.mp4","autoPlay":false,"autoBuffering":true}]}' />
-			        <!-- Image Fallback. Typically the same as the poster image. -->
-			        <img src="http://video-js.zencoder.com/oceans-clip.png" width="640" height="264" alt="Poster Image"
-			          title="No video playback capabilities." />
-			      </object>
-			    </video>
-			  </div>
-            </div>
+			 <a class="various fancybox.iframe" href="http://player.vimeo.com/video/32868817?title=0&amp;byline=0&amp;portrait=0&amp;color=ff0000&amp;autoplay=1"><img src="images/bt-video.png" border:"0"></a>
+          </div>
         </div>
         <div id='box10'>
 			<div id='info-final'>
-            	<h1>Lorem Ipsum<br>DOlor sit<br>amet</h1>
+            	<h1>Uma agência<br>completa.</h1>
                 <img src="images/logo-sato7.png">
                 <p>Esses são apenas alguns elementos da comunicação estratégica. Existem muitos outros que demandam igual atenção e conhecimento especializado. Não importa qual o porte do seu negócio ou projeto, nós podemos ajudá-lo a chegar ainda mais longe.<br><br>
 Somos uma agência de comunicação full service com foco total em resultados e soluções para nossos clientes e parceiros, orientando e alinhando seu posicionamento e reputação aos seus objetivos e expectativas. Nossa equipe é multidisciplinar e trabalha de forma integrada para entregar resultados positivos e concretos a nossos assessorados.<br><br>
 Temos um núcleo independente e exclusivamente dedicado à internet, especializado em tecnologia, experiência de usuário e estratégias para a rede.</p>
-                <h2>www.sato7.com.br</h2>
+                <h2><a href='http://www.sato7.com.br'>www.sato7.com.br</a></h2>
             </div>
         </div>
     </section>
