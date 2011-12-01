@@ -12,6 +12,8 @@ KwVocenaosabe::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
+  
+  
 
   # Sample resource route with options:
   #   resources :products do
@@ -51,6 +53,7 @@ KwVocenaosabe::Application.routes.draw do
   # root :to => "welcome#index"
 
   root :to => "home#index"
+  resources :videos
   # See how all your routes lay out with "rake routes"
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
