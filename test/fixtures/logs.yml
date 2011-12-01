@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  r1: MyString
+  r2: MyString
+  r3: MyString
+  r4: MyString
+  r5: MyString
+  r6: MyString
+  r7: MyString
+  total: 1
+
+two:
+  r1: MyString
+  r2: MyString
+  r3: MyString
+  r4: MyString
+  r5: MyString
+  r6: MyString
+  r7: MyString
+  total: 1
