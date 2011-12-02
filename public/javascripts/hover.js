@@ -1144,4 +1144,7 @@ function click_box(x, y)
 	$(x + " .item_"+ y +" div").css("border-bottom-color","#FFFFFF");
 	$(x + " .item_"+ y +" span").css("color","#FFFFFF");
 	$(x + " .item_"+ y +" h2").css("color","#FFFFFF");
+	
+	//MOSTRA BOTAO
+	$(x + " input").fadeIn('slow');
 }
