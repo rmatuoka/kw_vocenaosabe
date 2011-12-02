@@ -10,7 +10,7 @@ strong, sub, sup, tt, var, legend, fieldset {
 }
 
 html, body{
-	overflow:hidden;
+	/*overflow:hidden;*/
 	}
 
 img, fieldset {
