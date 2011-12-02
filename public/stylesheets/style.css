@@ -116,7 +116,7 @@ STRUCTURE
 	height:119px;
 	float:right;
 	margin-right:350px;
-	margin-top:30px;
+	margin-top:10px;
 	font-family: 'NovecentoBold';
 	font-size:30px;
 	color:#FFFFFF;
@@ -147,7 +147,7 @@ STRUCTURE
 	height:119px;
 	float:right;
 	margin-right:350px;
-	margin-top:30px;
+	margin-top:10px;
 	font-family: 'NovecentoBold';
 	font-size:30px;
 	color:#FFFFFF;
@@ -177,7 +177,7 @@ STRUCTURE
 	height:119px;
 	float:right;
 	margin-right:350px;
-	margin-top:30px;
+	margin-top:10px;
 	font-family: 'NovecentoBold';
 	font-size:30px;
 	color:#FFFFFF;
@@ -207,7 +207,7 @@ STRUCTURE
 	height:119px;
 	float:right;
 	margin-right:350px;
-	margin-top:30px;
+	margin-top:10px;
 	font-family: 'NovecentoBold';
 	font-size:30px;
 	color:#FFFFFF;
@@ -237,7 +237,7 @@ STRUCTURE
 	height:119px;
 	float:right;
 	margin-right:350px;
-	margin-top:30px;
+	margin-top:10px;
 	font-family: 'NovecentoBold';
 	font-size:30px;
 	color:#FFFFFF;
@@ -267,7 +267,7 @@ STRUCTURE
 	height:119px;
 	float:right;
 	margin-right:350px;
-	margin-top:30px;
+	margin-top:10px;
 	font-family: 'NovecentoBold';
 	font-size:30px;
 	color:#FFFFFF;
@@ -297,7 +297,7 @@ STRUCTURE
 	height:119px;
 	float:right;
 	margin-right:350px;
-	margin-top:30px;
+	margin-top:10px;
 	font-family: 'NovecentoBold';
 	font-size:30px;
 	color:#FFFFFF;
@@ -343,7 +343,7 @@ STRUCTURE
 	font-size:48px;
 	color:#FFFFFF;
 	text-transform:uppercase;
-	line-height:40px;
+	line-height:43px;
 	text-align:left;
 	float:left;
 	margin-left:200px;
@@ -374,7 +374,7 @@ STRUCTURE
 .body_box{
 	float:left;
 	width:100%;
-	margin-top:100px;
+	margin-top:70px;
 	margin-left:0 !important;
 	}
 
