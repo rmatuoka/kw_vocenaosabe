@@ -414,7 +414,7 @@ STRUCTURE
 	}
 
 .item_2{
-	margin-top:80px;
+	margin-top:60px;
 	cursor:pointer;
 	}
 	
@@ -445,7 +445,7 @@ STRUCTURE
 
 	
 .item_3{
-	margin-top:80px;
+	margin-top:60px;
 	cursor:pointer;
 	}
 	
@@ -475,7 +475,7 @@ STRUCTURE
 	}
 
 .item_4{
-	margin-top:80px;
+	margin-top:60px;
 	cursor:pointer;
 	}
 	
@@ -572,7 +572,7 @@ STRUCTURE
 	}
 
 #info-final{
-	margin-top:100px;
+	margin-top:50px;
 	width:650px;
 	float:right;
 	margin-right:150px;
@@ -587,25 +587,25 @@ STRUCTURE
 
 #info-final h2{
 	font-family: 'NovecentoBold';
-	font-size:41px;
+	font-size:35px;
 	color:#373535;
-	margin-top:50px;
+	margin-top:30px;
 	}
 
 #info-final h2 a{
 	font-family: 'NovecentoBold';
-	font-size:41px;
+	font-size:35px;
 	color:#373535;
-	margin-top:50px;
+	margin-top:30px;
 	text-decoration:none;
 	}
 
 #info-final p{
 	font-family: 'NovecentoBold';
-	font-size:18px;
+	font-size:16px;
 	color:#fff;
 	font-variant:small-caps;
-	margin-top:50px;
+	margin-top:30px;
 	}
 
 /************************************************************************************
